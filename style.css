@@ -1,0 +1,22 @@
+:root{
+    --branco: rgb(178, 215, 247);
+    --cordefundo:  rgb(38, 36, 41);
+    --fundodasenha: rgb(44, 44, 57);
+    --fundotexto: rgb(45, 40, 77);
+    --borda: rgb(212, 32, 137);
+    --libreBaskerville:"Libre Baskerville", serif;
+    --bebasNeue: "Bebas Neue", sans-serif;;
+}
+
+body{
+    color: var(--branco);
+    background-color:var(--cordefundo);
+}
+
+.titulo-principal{
+    font-family: var(--bebasNeue);
+}
+
+.titulo-secundario{
+    font-family: var(--libreBaskerville);
+}
