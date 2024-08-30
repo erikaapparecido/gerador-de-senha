@@ -1,11 +1,11 @@
 :root{
     --branco: rgb(178, 215, 247);
-    --cordefundo:  rgb(38, 36, 41);
-    --fundodasenha: rgb(44, 44, 57);
-    --fundotexto: rgb(45, 40, 77);
-    --borda: rgb(212, 32, 137);
-    --libreBaskerville:"Libre Baskerville", serif;
-    --bebasNeue: "Bebas Neue", sans-serif;;
+    --cordefundo:  rgb(25, 24, 27);
+    --fundodasenha: rgb(32, 32, 39);
+    --fundotexto: rgb(28, 25, 44);
+    --borda: rgb(32, 110, 212);
+    --roboto: "Roboto", sans-serif;
+    --robotoMono: "Roboto Mono", monospace;
 }
 
 body{
@@ -14,9 +14,38 @@ body{
 }
 
 .titulo-principal{
-    font-family: var(--bebasNeue);
+    font-family: var(--roboto);
 }
 
 .titulo-secundario{
-    font-family: var(--libreBaskerville);
+    font-family: var(--robotoMono);
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+    background-color: var(--fundoSenha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+    margin-top: 10px;
+}
+
+#campo-senha{
+    background-color: var(--fundodasenha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--robotoMono);
+    font-size: 40px;
+}
+
+#campo-senha:focus{
+    outline: none;
+}
+
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
 }
